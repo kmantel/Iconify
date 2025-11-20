@@ -95,6 +95,9 @@
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog.Monet
         </item>
         <item name="alertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog.Monet</item>
+
+        <item name="android:animation">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
     </style>
 
     <style name="Theme.Iconify.SplashScreen" parent="Theme.SplashScreen">

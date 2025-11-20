@@ -527,27 +527,9 @@ class MainActivity : BaseActivity(),
         }
 
         private fun View.fadeIn(duration: Long = 300) {
-            this.apply {
-                alpha = 0f
-                visibility = View.VISIBLE
-                animate()
-                    .alpha(1f)
-                    .setDuration(duration)
-                    .setListener(null)
-            }
         }
 
         private fun View.fadeOut(duration: Long = 300) {
-            this.apply {
-                animate()
-                    .alpha(0f)
-                    .setDuration(duration)
-                    .setListener(object : AnimatorListenerAdapter() {
-                        override fun onAnimationEnd(animation: Animator) {
-                            visibility = View.GONE
-                        }
-                    })
-            }
         }
     }
 }

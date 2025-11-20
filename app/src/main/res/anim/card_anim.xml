@@ -7,16 +7,17 @@
             android:state_pressed="true">
             <set>
                 <objectAnimator
-                    android:duration="@android:integer/config_shortAnimTime"
+                    android:duration="0"
                     android:propertyName="translationZ"
                     android:valueTo="6dp"
-                    android:valueType="floatType" />
+                    android:valueType="floatType"
+                    />
             </set>
         </item>
         <item>
             <set>
                 <objectAnimator
-                    android:duration="@android:integer/config_shortAnimTime"
+                    android:duration="0"
                     android:propertyName="translationZ"
                     android:valueTo="0"
                     android:valueType="floatType" />
